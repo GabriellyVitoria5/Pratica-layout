@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetoLayout</string>
+    <string name="login">Login</string>
+    <string name="please_sign_in">Please Sing in to continue.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remind">Reminder me next time</string>
+    <string name="sign_in">Sign in</string>
+    <string name="account">Don\'t have account?</string>
+    <string name="sign_up">Sign up</string>
+</resources>
