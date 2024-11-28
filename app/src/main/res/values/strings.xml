@@ -8,4 +8,7 @@
     <string name="sign_in">Sign in</string>
     <string name="account">Don\'t have account?</string>
     <string name="sign_up">Sign Up</string>
+    <string name="desc_logo">Logo do app, possui a imagem de um celular com o texto: "Verification Code" no centro, um vaso de planta à esquerda e mulher sentada mexendo no celular à direta</string>
+    <string name="desc_user_icon">Ícone de usuário</string>
+    <string name="desc_password_icon">Ícone de cadeado</string>
 </resources>
