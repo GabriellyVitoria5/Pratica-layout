@@ -46,11 +46,10 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
-    <!-- colocar ícones nos campos de texto-->
     <EditText
         android:id="@+id/txt_username"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:background="@drawable/edit_text_background"
         android:hint="@string/username"
         android:textColorHint="@color/cor_padrao"
@@ -69,6 +68,7 @@
         />
 
     <ImageView
+        android:id="@+id/img_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/user_icon"
@@ -78,13 +78,14 @@
         app:layout_constraintTop_toTopOf="@+id/txt_username"
         />
 
-    <!--<com.google.android.material.textfield.TextInputLayout
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/txt_password"
         android:layout_width="match_parent"
-        android:layout_height="@+id/txt_username"
+        android:layout_height="60dp"
+        android:hint="@string/password"
         android:background="@drawable/edit_text_background"
         app:passwordToggleEnabled="true"
-        android:paddingLeft="42dp"
+        android:paddingLeft="40dp"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -93,17 +94,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_password"
+        <EditText
+            android:id="@+id/edit_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:textColor="@color/cor_padrao"
             android:textSize="@dimen/font_normal" />
 
-    </com.google.android.material.textfield.TextInputLayout>-->
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
+    <!--<EditText
         android:id="@+id/txt_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -122,9 +123,10 @@
         app:layout_constraintTop_toBottomOf="@id/txt_username"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        />-->
 
     <ImageView
+        android:id="@+id/img_lock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/lock_icon"
@@ -134,6 +136,7 @@
         app:layout_constraintTop_toTopOf="@+id/txt_password" />
 
     <!--<ImageView
+        android:id="@+id/img_eye_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/eye_close_icon"
@@ -164,8 +167,9 @@
         android:id="@+id/switch_remind"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="11dp"
         android:layout_marginRight="20dp"
+        android:minHeight="48dp"
         android:scaleX="1.5"
         android:track="@drawable/switch_background"
         app:layout_constraintEnd_toEndOf="parent"
@@ -176,7 +180,7 @@
     <Button
         android:id="@+id/btn_sign_in"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:backgroundTint="@color/cor_padrao"
         android:text="@string/sign_in"
         android:textSize="@dimen/font_normal"
