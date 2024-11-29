@@ -32,12 +32,12 @@ class MainActivity : AppCompatActivity() {
             if (visiblePassword) {
                 visiblePassword = false
                 binding.txtPassword.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-                binding.imgEyePassword.setBackgroundResource(R.drawable.eye_close_icon)
+                binding.imgEyePassword.setBackgroundResource(R.mipmap.eye_close_icon)
             }
             else{
                 visiblePassword = true
                 binding.txtPassword.inputType = InputType.TYPE_CLASS_TEXT
-                binding.imgEyePassword.setBackgroundResource(R.drawable.eye_open_icon)
+                binding.imgEyePassword.setBackgroundResource(R.mipmap.eye_open_icon)
             }
 
         }
