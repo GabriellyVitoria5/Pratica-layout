@@ -11,4 +11,5 @@
     <string name="desc_logo">Logo do app, possui a imagem de um celular com o texto: "Verification Code" no centro, um vaso de planta à esquerda e mulher sentada mexendo no celular à direta</string>
     <string name="desc_user_icon">Ícone de usuário</string>
     <string name="desc_password_icon">Ícone de cadeado</string>
+    <string name="desc_password_eye">Ícone de olho para mostrar e esconder a senha</string>
 </resources>
