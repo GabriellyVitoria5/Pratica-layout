@@ -2,4 +2,5 @@
 <resources>
     <dimen name="font_normal">15sp</dimen>
     <dimen name="font_large">40sp</dimen>
+    <dimen name="bordas_laterais">20dp</dimen>
 </resources>
